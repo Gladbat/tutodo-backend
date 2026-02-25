@@ -18,8 +18,9 @@ public class CorsConfig {
         config.setAllowedOriginPatterns(Arrays.asList(
             "http://localhost:4200", 
             "http://localhost:*",
-            "https://*.up.railway.app",
+            "https://tutodo-frontend.vercel.app",
             "https://*.vercel.app",
+            "https://*.up.railway.app",
             "https://*.netlify.app"
         ));
         config.addAllowedHeader("*");
