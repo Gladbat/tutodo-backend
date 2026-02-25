@@ -13,7 +13,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class SupabaseStorageService {
 
-    @Value("${supabase.project.url}")
+    @Value("${supabase.url}")
     private String supabaseUrl;
 
     @Value("${supabase.service.role.key}")
